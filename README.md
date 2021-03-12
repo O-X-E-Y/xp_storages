@@ -2,6 +2,8 @@ Just a little datapack that adds xp storages to the game through structure block
 
 ## How to use:
 
+![Crafting recipe:](https://imgur.com/uAjuuRM "crafting recipe")
+
 -Throw the XP Storage on the ground to place it.
 
 -To activate it, stand on top of it. This will link the storage to you.
