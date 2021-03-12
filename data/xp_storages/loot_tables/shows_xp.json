@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "name": ".show",
+                  "objective": "xp"
+                },
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
