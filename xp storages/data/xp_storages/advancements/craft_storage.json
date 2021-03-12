@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "crafted_xp_storage": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "xp_storages:xp_storage"
+      }
+    }
+  },
+  "rewards": {
+    "function": "xp_storages:storage/crafting/schedule_craft_storage"
+  }
+}
