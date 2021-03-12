@@ -10,7 +10,7 @@ setblock ~ ~-0.2 ~ air destroy
 scoreboard players set @p[scores={droppedEmerald=1..},distance=..5] droppedEmerald 0
 playsound minecraft:block.beacon.deactivate block @a ~ ~ ~ 1 1
 
-execute if score .activated xpPId matches 1.. store result score @s tempItemCount run data get entity @s Item.Count
-execute if score .activated xpPId matches 1.. run scoreboard players remove @s tempItemCount 1
-execute if score .activated xpPId matches 1.. store result entity @s Item.Count byte 1 run scoreboard players get @s tempItemCount
+execute unless score .verify xpPId matches -4 store result score @s tempItemCount run data get entity @s Item.Count
+execute unless score .verify xpPId matches -4 run scoreboard players remove @s tempItemCount 1
+execute unless score .verify xpPId matches -4 store result entity @s Item.Count byte 1 run scoreboard players get @s tempItemCount
 data modify entity @s PickupDelay set value 0s
