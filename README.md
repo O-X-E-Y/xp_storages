@@ -2,7 +2,7 @@ Just a little datapack that adds xp storages to the game through structure block
 
 ## How to use:
 
-Recipe:
+Recipe (any combination of obsidian works):
 
 ![Crafting recipe](https://github.com/O-X-E-Y/xp_storages/blob/main/storage_recipe.jpg)
 
