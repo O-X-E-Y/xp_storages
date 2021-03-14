@@ -1,8 +1,6 @@
-advancement revoke @a[tag=crafted_storage] only xp_storages:craft_storage
-recipe take @a[tag=crafted_storage] xp_storages:xp_storage
+recipe take @s xp_storages:xp_storage
+advancement revoke @s only xp_storages:craft_storage
 
-execute store result score .count craftedCount run clear @a[tag=crafted_storage] knowledge_book
+execute store result score .count craftedCount run clear @s knowledge_book
 
-execute as @a[tag=crafted_storage] run function xp_storages:storage/crafting/give_storage_item
-
-tag @a[tag=crafted_storage] remove crafted_storage
+execute as @s run function xp_storages:storage/crafting/give_storage_item
