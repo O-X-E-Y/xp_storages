@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "xp_storages:storage/crafting/schedule_craft_storage"
+    "function": "xp_storages:storage/crafting/craft_storage"
   }
 }
