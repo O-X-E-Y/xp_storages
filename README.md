@@ -20,6 +20,6 @@ Recipe (any combination of obsidian works):
 
 -To give other players the storage without it activating, look at their eyes while standing within 6 blocks away.
 
-You might lose one xp occasionally. I want to assure you that this is not a bug, it's a feature! :)
+You might lose one xp occasionally. I want to assure you that this is not a bug, it's a feature :)
 If you find any other bugs, be sure to let me know.
-Have fun with these :)
+Have fun with these!
