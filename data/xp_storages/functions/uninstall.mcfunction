@@ -2,8 +2,6 @@ execute as Oxey run say Uninstalled xp storages. Thanks for downloading :)
 
 ###############################################################
 
-scoreboard objectives remove oxey.const
-
 scoreboard objectives remove xp
 scoreboard objectives remove xpLevel
 scoreboard objectives remove xpPoints
