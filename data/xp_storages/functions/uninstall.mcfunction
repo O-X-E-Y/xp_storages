@@ -1,4 +1,4 @@
-execute as Oxey run say uninstalled xp storages. Thanks for downloading :)
+execute as Oxey run say Uninstalled xp storages. Thanks for downloading :)
 
 ###############################################################
 
